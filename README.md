@@ -1,22 +1,29 @@
 
 
-# **Trailerflix – Trabajo Integrador React**
+# **Trailerflix**
 
+Aplicación realizada con **React + Vite** que permite visualizar un catálogo de películas y series, filtrarlas, buscarlas y ver sus detalles, incluyendo tráiler y descripción. También cuenta con un sistema de login con saludo personalizado.
 
+---
 
-Aplicación realizada con **React + Vite** que muestra un catálogo de películas y series con buscador, filtros por género y categoría, vista de detalles y sistema de login con saludo personalizado.
+## 📥 Clonar el repositorio
+
+```bash
+git clone (https://github.com/TA899/Trabajo-Integrador-Aplicaci-n-de-Streaming-con-React)
+cd https://github.com/TA899/Trabajo-Integrador-Aplicaci-n-de-Streaming-con-React
+```
 
 ---
 
 ## 📦 Instalación
 
-Clonar el repositorio y ejecutar:
+Instalar dependencias:
 
 ```bash
 npm install
 ```
 
-Además, instalar la dependencia necesaria para el manejo de rutas:
+Instalar react-router-dom para gestionar las rutas:
 
 ```bash
 npm install react-router-dom
@@ -26,7 +33,7 @@ npm install react-router-dom
 
 ## ▶️ Ejecución
 
-Para iniciar el proyecto en modo desarrollo:
+Iniciar el proyecto en modo desarrollo:
 
 ```bash
 npm run dev
@@ -36,49 +43,52 @@ npm run dev
 
 ## 📝 Descripción
 
-Trailerflix permite:
+Trailerflix incluye:
 
-* Buscar títulos por nombre
-* Filtrar por género
-* Filtrar por categoría (Película / Serie)
-* Ver detalles individuales
-* Iniciar sesión y mostrar saludo con el nombre del usuario
-* Mantener la sesión con `localStorage`
+* Búsqueda en tiempo real
+* Filtros por **género**
+* Filtro por **Película / Serie**
+* Vista de detalles con **tráiler**, **sinopsis** y **reparto**
+* Sistema de login que muestra saludo con el nombre del usuario
+* Persistencia de sesión con `localStorage`
+* Navegación con `react-router-dom`
 
-Los datos provienen de archivos JSON ubicados en **/public/data**.
+Los datos se cargan desde **/public/data**.
 
 ---
 
+## 📸 Capturas de pantalla
 
 ### 🏠 Home
 
-Incluye buscador, filtros por género, filtro por película/serie y catálogo visual.
+Buscador, filtros por género y categoría, lista del catálogo.
 
-<img width="1902" height="895" alt="image" src="https://github.com/user-attachments/assets/b6b570b8-0027-4252-874e-ecdeaeae5c61" />
+![Home](https://github.com/user-attachments/assets/b6b570b8-0027-4252-874e-ecdeaeae5c61)
+
+---
+
+### 🎥 Detalle de película / serie
+
+Al hacer clic en un título, se muestra la imagen, tráiler, descripción y reparto.
+
+![Detalle](https://github.com/user-attachments/assets/1f718407-c7f4-4ff9-afbc-6b2ba0f8b5ab.png)
 
 ---
 
 ### 👤 Login exitoso
 
-Al iniciar sesión correctamente, se muestra un saludo con el nombre del usuario.
+Muestra saludo con el nombre del usuario.
 
-<img width="1896" height="897" alt="image" src="https://github.com/user-attachments/assets/4cbab234-7d85-484b-bafc-14377d991d22" />
+![Login Name](https://github.com/user-attachments/assets/4cbab234-7d85-484b-bafc-14377d991d22)
 
 ---
 
-## 📂 Proyecto completo
+## 📂 Contenido requerido del repositorio
 
 El repositorio debe incluir:
 
-* Código fuente
-* Carpeta `public/data/`
+* Código fuente completo
+* Carpeta `public/data/` con los JSON
 * Este archivo `README.md`
-* Todas las dependencias instaladas
-
-
-
-
-
-
-
+* Todas las dependencias necesarias instaladas
 
