@@ -71,7 +71,8 @@ Buscador, filtros por género y categoría, lista del catálogo.
 
 Al hacer clic en un título, se muestra la imagen, tráiler, descripción y reparto.
 
-![Detalle](https://github.com/user-attachments/assets/1f718407-c7f4-4ff9-afbc-6b2ba0f8b5ab.png)
+<img width="1508" height="781" alt="image" src="https://github.com/user-attachments/assets/36a47d5b-e212-4ec0-a88c-0a25ff9b480d" />
+
 
 ---
 
