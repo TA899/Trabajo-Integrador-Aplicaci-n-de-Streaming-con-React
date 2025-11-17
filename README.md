@@ -239,4 +239,25 @@ Se evaluará:
 * La búsqueda + filtros y la persistencia tienen **alto valor** en la nota
 * Consultar al profesor en caso de dudas
 
+🏠 Vista del Home
+
+El Home de la aplicación se ve de la siguiente manera.
+Incluye:
+
+Botones de filtrado por género
+
+Buscador que filtra por nombre
+
+Opciones de filtrado por serie o película
+
+<img width="1902" height="895" alt="image" src="https://github.com/user-attachments/assets/b6b570b8-0027-4252-874e-ecdeaeae5c61" />
+
+👋 Saludo al iniciar sesión
+
+Cuando el usuario realiza el login correctamente, se muestra su nombre acompañado de un saludo personalizado en la parte superior de la pantalla.
+
+
+El home deberia verse de esta manera. Con los botones de filtrado por genero y el buscador que filtra por nombre. Ademas del filtrado por serie o pelicula 
+
+<img width="1896" height="897" alt="image" src="https://github.com/user-attachments/assets/4cbab234-7d85-484b-bafc-14377d991d22" />
 
