@@ -1,6 +1,4 @@
-Aquí tenés el **README.md final**, limpio, ordenado, formateado y listo para copiar/pegar directamente en tu repositorio.
 
----
 
 # **Trailerflix – Trabajo Integrador React**
 
