@@ -49,7 +49,6 @@ Los datos provienen de archivos JSON ubicados en **/public/data**.
 
 ---
 
-## 📸 Capturas de pantalla
 
 ### 🏠 Home
 
